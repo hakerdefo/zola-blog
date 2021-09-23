@@ -1,2 +1,2 @@
 # zola-blog
-My blog based on Zola SSG.
+The place where code for my blog built using Zola lives. 
