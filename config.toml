@@ -23,13 +23,10 @@ logo_text = "Lily is Here"
 author = "Lily"
 
 menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
     {name = "Blog", url = "$BASE_URL"},
     {name = "About", url = "$BASE_URL/about"},
     {name = "Tags", url = "$BASE_URL/tags"},
     {name = "Archive", url = "$BASE_URL/archive"},
-    {name = "Code", url = "https://github.com/hakerdefo", newtab = true},
 ]
 
 enable_post_view_navigation = true
