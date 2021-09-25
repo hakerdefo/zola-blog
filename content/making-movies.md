@@ -13,7 +13,7 @@ I don't know.
 <p></p>
 
 *Are you comfortable ma?*  
-*Yes dear.*  
+*Yes, dear.*  
 <p></p>
 
 On the big cinema screen, I can see myself with a bunch of unknown and shady looking guys. A big stash of cash and empty bottles of whiskey are lying around on the floor. Suddenly the door bursts open and we are surrounded by a bunch of guys flashing their guns at us. The scene ends abruptly and we all are sitting around a campfire, chatting & laughing and getting drunk. Someone is helping some guy in shooting heroin. The sun is slowly setting across an empty & arid desert plain.  
@@ -27,7 +27,7 @@ I don't know.
 <p></p>
 
 *Are you comfortable ma?*  
-*Yes dear.*  
+*Yes, dear.*  
 <p></p>
 
 In a crowded restaurant, I can see myself having dinner with a friend of mine. He seems a bit drunk already but we still order a bottle and start drinking. My friend is really sad and is on the verge of crying. He is speaking something but I'm unable to hear a single word he is saying for some reason. Our empty bottle is quickly replaced with a full one by an eternally smiling yet shy looking waitress. The music played by a live band slowly starts fading away into the silence.  
@@ -43,4 +43,4 @@ I do know now.
 <p></p>
 
 *Are you comfortable son?*  
-*Yes dear.*  
+*Yes, dear.*  
