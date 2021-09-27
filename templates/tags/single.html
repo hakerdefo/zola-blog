@@ -3,12 +3,12 @@
 {% block content %}
     <div class="post">
         <h1 class="post-title">
-            tag: #{{ term.name }}
-            ({{ term.pages | length }} post{{ term.pages | length | pluralize }})
+            Tag: #{{ term.name }}
+            ({{ term.pages | length }} Post{{ term.pages | length | pluralize }})
         </h1>
 
         <a href="{{ config.base_url | safe }}/tags">
-            Show all tags
+            Show All Tags
         </a>
 
         {{ post_macros::list_posts(pages=term.pages) }}
