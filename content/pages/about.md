@@ -9,4 +9,4 @@ I'm Perennial. I'm always around.
 And when I'm not around, don't worry; close your eyes, take a deep breath; that fragrance is me.  
 Lily is still here. Forever.  
 
-{{ image(src="/lily.png", position="left", style="border-radius: 8px;") }}
+{{ image(src="/lily.png", style="border-radius: 08px;") }}
