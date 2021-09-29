@@ -44,3 +44,5 @@ I do know now.
 
 *Are you comfortable son?*  
 *Yes, dear.*  
+
+{{ image(src="/making_movies_image.png", style="border-radius: 08px;") }}
