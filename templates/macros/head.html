@@ -18,9 +18,9 @@
 {% endif -%}
 
 {%- if config.extra.use_full_hack_font %}
-    <link rel="stylesheet" href="{{ get_url(path="font-hack.css", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="font-hack.css&display=swap", trailing_slash=false) | safe }}">
 {% else %}
-    <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css&display=swap", trailing_slash=false) | safe }}">
 {% endif -%}
 
 {% endmacro head %}
