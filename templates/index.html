@@ -7,7 +7,13 @@
 <html lang="{%- if config.default_language -%}{{ config.default_language }}{%- else -%}en{%- endif -%}">
 
 <head>
-    <title>{%- block title %}{{ config.title }}{% endblock title -%}</title>
+    {%- block title %}
+        {% if page.title %}
+            <title>{{ page.title }}&#32;&#45;&#32;{{ config.description }}&#32;&#45;&#32;{{ config.title }}</title>
+        {% else %}
+            <title>{{ config.description }}&#32;&#45;&#32;{{ config.title }}</title>
+        {% endif %}
+    {% endblock title -%}
     {{ head_macros::head(config=config) }}
 
     {%- if config.generate_rss %}
