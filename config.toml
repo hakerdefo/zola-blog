@@ -1,5 +1,6 @@
 base_url = "https://blanc.pages.dev"
 title = "Filling the Void"
+description = "Lily is Here"
 
 compile_sass = true
 
