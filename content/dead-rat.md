@@ -7,10 +7,8 @@ tags = ["guest", "story"]
 +++
 
 I’m lying on the ground like a dead rat on the corner of the street. No one even bothers to take a look cause there are so many of them, dead rats.  
-
-I'm like that sunshine on a rainy day which only lasts for a moment or two And then disappears again behind the gloom. I'm just another gloomy Sunday evening with cloudy weather but no sign of rain.  
-
 <!-- more -->
+I'm like that sunshine on a rainy day which only lasts for a moment or two And then disappears again behind the gloom. I'm just another gloomy Sunday evening with cloudy weather but no sign of rain.  
 
 And then I see you. You make me human, you make me feel, you make me feel jealous about the love that I don't deserve.  
 
@@ -34,6 +32,7 @@ How I wish I can tell you just how much I love your hate and disgust! Oh, please
 
 And sometimes I wish if only I could be someone else, some other person, someone very different, almost a total stranger! Who knows you might love me then?  
 
+<p></p>
 {{ image(src="/dead_rat_image.png", style="border-radius: 08px;") }}
 <p></p>
 
