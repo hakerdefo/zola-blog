@@ -18,11 +18,11 @@ Do you like it when I pass by your house without any purpose?
 
 Your pretty face seem to be smiling every time you see me cry. Or is it just another mysterious way of saying that you love me?  
 
-Oh, how I wish I could break your heart! I want to leave you but I also want to see you die slowly, each & everyday! I really do!  
+Oh, how I wish I could break your heart! I want to leave you, but I also want to see you die slowly, each & every day! I really do!  
 
 Oh, how I wish I could comb your long raven black hair all day and all night long!  
 
-Why don't you rip me off, tear me apart and eat me inside out? Do it babe, cause you want it.  
+Why don't you rip me off, tear me apart and eat me inside out? Do it, babe, because you want it.  
 
 Oh, you beautiful creature with a blood stained knife in your hand, please show no mercy on my body and soul! Oh, you beautiful creature!  
 
@@ -30,7 +30,7 @@ Then please leave me crying on the floor! Please leave me dying on the floor! An
 
 How I wish I can tell you just how much I love your hate and disgust! Oh, please don't look back!  
 
-And sometimes I wish if only I could be someone else, some other person, someone very different, almost a total stranger! Who knows you might love me then?  
+And sometimes I wish if only I could be someone else, some other person, someone very different, almost a total stranger! Who knows, you might love me then?  
 
 <p></p>
 {{ image(src="/dead_rat_image.png", style="border-radius: 08px;") }}
