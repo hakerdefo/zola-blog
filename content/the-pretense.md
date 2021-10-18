@@ -19,7 +19,7 @@ Even with the dead batteries inside
 What they mean is learn zombie walk  
 
 I think my friends are really great  
-They might worry for me deep inside  
+They do worry about me, deep inside  
 Pretense at times is your best mate  
 
 <p>
