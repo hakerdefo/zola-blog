@@ -7,7 +7,7 @@ tags = ["original", "song"]
 +++
 
 You've lost weight, I hear them say  
-Then why I feel really heavy inside  
+But I feel heavier than lead inside  
 It is confusing, sure I gotta weigh  
 <!-- more -->
 We're fed up is their one complaint  
