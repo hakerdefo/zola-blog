@@ -1,5 +1,5 @@
 # zola-blog
-The place where code for my blog built using Zola lives.  
+The place where code for a special person's blog built using Zola lives.  
 <p></p>
 
 **Credits :**
