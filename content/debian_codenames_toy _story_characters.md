@@ -1,5 +1,5 @@
 +++
-title = "Debian release code names & Toy Story characters"
+title = "Debian codenames & Toy Story characters"
 date = "2023-08-14"
 
 [taxonomies]
