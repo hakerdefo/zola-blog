@@ -145,6 +145,13 @@ Debian release code names are derived from the names of characters in the movie 
 
 ***
 
+## Debian 13 Trixie
+<p>
+{{ image(src="/trixie.webp", style="border-radius: 08px;") }}
+</p>
+
+***
+
 ## Debian unstable Sid
 
 <p>
