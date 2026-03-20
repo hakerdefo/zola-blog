@@ -34,6 +34,12 @@
     display: inline;
   }
 
+  &-reading-time {
+    font-size: 1rem;
+    color: var(--accent-alpha-70);
+    margin-left: 4px;
+  }
+
   &-title {
     --border: 2px dashed var(--accent);
     position: relative;

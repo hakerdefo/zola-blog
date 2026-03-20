@@ -1,9 +1,53 @@
 {% extends "index.html" %}
+{% import "macros/post.html" as post_macros %}
+
+{% block extra_head %}
+<style>
+  #reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--accent);
+    z-index: 200;
+    transition: width 0.1s linear;
+  }
+</style>
+{% endblock extra_head %}
 
 {% block content %}
+    <div id="reading-progress"></div>
     <div class="post">
         {{ post_macros::header(page=page) }}
         {{ post_macros::content(page=page, summary=false) }}
+
+        {%- if config.extra.show_donate and config.extra.paypal_url and page.date %}
+        <div class="donate-block">
+          <p class="donate-block__message">This blog is tended by a friend. If it moved you, a small kindness would mean a great deal <a class="donate-block__link" href="{{ config.extra.paypal_url | safe }}" target="_blank" rel="noopener noreferrer">for him.</a></p>
+        </div>
+        {% endif -%}
+
         {{ post_macros::earlier_later(page=page) }}
     </div>
+
+<script>
+(function () {
+    var bar = document.getElementById('reading-progress');
+    var post = document.querySelector('.post-content');
+    if (!bar || !post) return;
+
+    function update() {
+        var rect = post.getBoundingClientRect();
+        var total = post.offsetHeight - window.innerHeight;
+        if (total <= 0) { bar.style.width = '100%'; return; }
+        var scrolled = -rect.top;
+        var pct = Math.min(100, Math.max(0, (scrolled / total) * 100));
+        bar.style.width = pct + '%';
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+})();
+</script>
 {% endblock content %}

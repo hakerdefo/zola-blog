@@ -1,0 +1,5 @@
+{% if config.extra.paypal_url %}
+<div class="donate-block">
+  <p class="donate-block__message">This blog is tended by a friend. If it moved you, a small kindness would mean a great deal <a class="donate-block__link" href="{{ config.extra.paypal_url | safe }}" target="_blank" rel="noopener noreferrer">for him.</a></p>
+</div>
+{% endif %}

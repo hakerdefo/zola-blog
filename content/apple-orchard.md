@@ -1,6 +1,10 @@
 +++
 title = "Apple Orchard"
 date = "2021-10-15"
+description = "A backpacker, a friendship forged in the Himalayas, and a desperate plan that spirals far beyond its maker's control."
+
+[extra]
+image = "/apple_orchard_image.png"
 
 [taxonomies]
 tags = ["dream", "story"]
@@ -25,5 +29,5 @@ Firecrackers! Noise of firecrackers! I slowly opened my eyes, yawning and cursin
 A child cradled in a woman's arms; the child looks up, and I see my mother's face.  
 
 <p>
-{{ image(src="/apple_orchard_image.png", style="border-radius: 08px;") }}
+{{ image(src="/apple_orchard_image.png", style="border-radius: 8px;") }}
 </p>

@@ -1,7 +1,36 @@
-{% macro head(config) %}
+{% macro head(config, page=false) %}
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <meta name="robots" content="noodp"/>
+
+    {%- if page and page.description %}
+        <meta name="description" content="{{ page.description | striptags | truncate(length=160) }}">
+        <meta property="og:description" content="{{ page.description | striptags | truncate(length=160) }}">
+    {%- elif config.description %}
+        <meta name="description" content="{{ config.description }}">
+        <meta property="og:description" content="{{ config.description }}">
+    {% endif -%}
+
+    {%- if page and page.title %}
+        <meta property="og:title" content="{{ page.title }} — {{ config.title }}">
+    {%- else %}
+        <meta property="og:title" content="{{ config.title }}">
+    {% endif -%}
+
+    {%- if page and page.date %}
+        <meta property="og:type" content="article">
+    {%- else %}
+        <meta property="og:type" content="website">
+    {% endif -%}
+
+    {%- if page and page.extra.image %}
+        <meta property="og:image" content="{{ config.base_url ~ page.extra.image | safe }}">
+    {% endif -%}
+
+    {%- if page %}
+        <link rel="canonical" href="{{ page.permalink | safe }}">
+    {%- else %}
+        <link rel="canonical" href="{{ config.base_url | safe }}">
+    {% endif -%}
 
     <link rel="stylesheet" href="{{ get_url(path="style.css", trailing_slash=false) | safe }}">
 
@@ -18,9 +47,9 @@
 {% endif -%}
 
 {%- if config.extra.use_full_hack_font %}
-    <link rel="stylesheet" href="{{ get_url(path="font-hack.css&display=swap", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="font-hack.css", trailing_slash=false) | safe }}">
 {% else %}
-    <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css&display=swap", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css", trailing_slash=false) | safe }}">
 {% endif -%}
 
 {% endmacro head %}

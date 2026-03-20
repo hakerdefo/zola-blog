@@ -1,11 +1,36 @@
 {% extends "index.html" %}
 
+{% import "macros/post.html" as post_macros %}
+
 {% block content %}
     <div class="post">
         <h1 class="post-title">{{ page.title }}</h1>
 
         {% set section = get_section(path="_index.md") %}
 
-        {{ post_macros::list_posts(pages=section.pages) }}
+        {%- set_global current_year = "" %}
+        <div class="archive">
+        {%- for p in section.pages %}
+            {%- if p.draft %}{% continue %}{% endif -%}
+            {%- set post_year = p.date | date(format="%Y") %}
+            {%- if post_year != current_year %}
+                {%- if current_year != "" %}</ul>{% endif %}
+                <h2 class="archive-year">{{ post_year }}</h2>
+                <ul class="archive-year-list">
+                {%- set_global current_year = post_year %}
+            {%- endif %}
+            <li class="post-list">
+                <a href="{{ p.permalink | safe }}">
+                    <span class="post-date">{{ p.date | date(format="%b %d") }}</span>
+                    :: <span class="post-list-title">{{ p.title }}</span>
+                </a>
+                {%- if p.reading_time %}
+                    <span class="post-reading-time">· {{ p.reading_time }} min</span>
+                {%- endif %}
+                {{ post_macros::tags(page=p, short=true) }}
+            </li>
+        {%- endfor %}
+        </ul>
+        </div>
     </div>
 {% endblock content %}

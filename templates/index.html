@@ -14,10 +14,14 @@
             <title>{{ config.description }}&#32;&#45;&#32;{{ config.title }}</title>
         {% endif %}
     {% endblock title -%}
-    {{ head_macros::head(config=config) }}
+    {%- if page is defined %}
+        {{ head_macros::head(config=config, page=page) }}
+    {%- else %}
+        {{ head_macros::head(config=config) }}
+    {%- endif %}
 
-    {%- if config.generate_rss %}
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") | safe }}">
+    {%- if config.generate_feeds %}
+        <link rel="alternate" type="application/atom+xml" title="Feed" href="{{ get_url(path="atom.xml") | safe }}">
     {% endif -%}
 
     {%- if config.extra.favicon %}
@@ -52,11 +56,17 @@
             </div>
         </div>
 
-        {%- if current_path %}
+        {%- if current_path is defined %}
             {{ menu_macros::menu(config=config, current_path=current_path) }}
         {% endif -%}
     </header>
     {% endblock header %}
+
+    {%- if config.extra.intro and current_path is defined and current_path == "/" %}
+    <div class="site-intro">
+        <p>{{ config.extra.intro }}</p>
+    </div>
+    {% endif -%}
 
     <div class="content">
         {% block content %}
@@ -68,6 +78,7 @@
             {% endif -%}
 
             {%- for page in show_pages %}
+                {%- if page.draft %}{% continue %}{% endif -%}
                 <div class="post on-list">
                     {{ post_macros::header(page=page) }}
                     {{ post_macros::content(page=page, summary=true) }}
@@ -105,9 +116,23 @@
             {% else %}
                 <div class="copyright">
                     {%- if config.extra.author %}
-                        <span>&#169; {{ date_macros::now_year() }} <a href="mailto:me.lily@bk.ru">{{ config.extra.author }}</a> &#129293; Made with <a href="https://github.com/getzola/zola">Zola</a></span>
+                        <span>&#169; {{ date_macros::now_year() }}
+                            {%- if config.extra.author_email %}
+                                <a href="mailto:{{ config.extra.author_email }}">{{ config.extra.author }}</a>
+                            {%- else %}
+                                {{ config.extra.author }}
+                            {%- endif %}
+                            &#129293; Made with <a href="https://github.com/getzola/zola">Zola</a>
+                            {%- if config.generate_feeds %}
+                                · <a href="{{ get_url(path="atom.xml") | safe }}" title="Atom Feed">Feed</a>
+                            {%- endif %}
+                        </span>
                     {% else %}
-                        <span>&#169; {{ date_macros::now_year() }} &#129293; Made with <a href="https://github.com/getzola/zola">Zola</a></span>
+                        <span>&#169; {{ date_macros::now_year() }} &#129293; Made with <a href="https://github.com/getzola/zola">Zola</a>
+                            {%- if config.generate_feeds %}
+                                · <a href="{{ get_url(path="atom.xml") | safe }}" title="Atom Feed">Feed</a>
+                            {%- endif %}
+                        </span>
                     {% endif -%}
                 </div>
             {% endif -%}
@@ -116,6 +141,32 @@
     {% endblock footer %}
 
 </div>
+
+<button id="back-to-top" title="Back to top" aria-label="Back to top">↑</button>
+
+<script>
+(function () {
+    // Back to top button
+    var btn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', function () {
+        btn.classList.toggle('visible', window.scrollY > 400);
+    });
+    btn.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Heading anchor links — only inside .post-content
+    document.querySelectorAll('.post-content h1[id], .post-content h2[id], .post-content h3[id], .post-content h4[id]').forEach(function (heading) {
+        var anchor = document.createElement('a');
+        anchor.href = '#' + heading.id;
+        anchor.className = 'heading-anchor';
+        anchor.setAttribute('aria-hidden', 'true');
+        anchor.textContent = ' #';
+        heading.appendChild(anchor);
+    });
+})();
+</script>
+
 </body>
 
 </html>

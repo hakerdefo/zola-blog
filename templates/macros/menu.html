@@ -1,4 +1,8 @@
 {% macro menu(config, current_path) %}
+    {# Note: `current_path` is accepted for interface consistency but active-state
+       detection uses Zola's global `current_url`, which is always available in
+       template context. They point to the same page; `current_url` is used because
+       it carries the full absolute URL needed for the prefix comparison below. #}
     {%- if config.extra.menu_items %}
         {%- set menu_items = config.extra.menu_items -%}
 

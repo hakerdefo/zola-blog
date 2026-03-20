@@ -1,16 +1,21 @@
 base_url = "https://blanc.pages.dev"
 title = "Filling the Void"
 description = "Lily is Here"
+default_language = "en"
 
 compile_sass = true
+generate_feeds = true
 
 taxonomies = [
     {name = "tags"}
 ]
 
 [markdown]
-highlight_code = true
-highlight_theme = "ayu-dark"
+render_emoji = true
+smart_punctuation = true
+
+[markdown.highlighting]
+theme = "tokyo-night"
 
 [extra]
 # One of: blue, green, orange, pink, red.
@@ -22,6 +27,10 @@ background_color = "blue"
 logo_text = "Lily is Here"
 
 author = "Lily"
+author_email = "me.lily@bk.ru"
+
+# A brief line shown on the homepage above the posts.
+intro = "Some things are too heavy for conversation and too true for silence — so they end up here."
 
 menu_items = [
     {name = "Blog", url = "$BASE_URL"},
@@ -32,9 +41,18 @@ menu_items = [
 
 enable_post_view_navigation = true
 
-post_view_navigation_prompt = "Thanks for reading this post! You can read other posts too!"
+post_view_navigation_prompt = "there is more, if you wish"
 
 use_full_hack_font = false
 
 favicon = "/favicon.ico"
 favicon_mimetype = "image/x-icon"
+
+# ── Donation block ─────────────────────────────────────────────────────────────
+# Your PayPal.me link (or any payment URL).
+paypal_url = "https://paypal.me/hakerdefo"
+
+# Option A — set to true to show the donation block on EVERY post automatically.
+# Option B — set to false and use {{ donate() }} in individual posts instead.
+# Lily's choice lives here.
+show_donate = true

@@ -1,6 +1,10 @@
 +++
 title = "Dead Rat"
 date = "2021-10-06"
+description = "A raw, feverish monologue about longing, invisibility, and the strange cruelty of loving someone who cannot see you."
+
+[extra]
+image = "/dead_rat_image.png"
 
 [taxonomies]
 tags = ["guest", "story"]
@@ -32,8 +36,8 @@ How I wish I can tell you just how much I love your hate and disgust! Oh, please
 
 And sometimes I wish if only I could be someone else, some other person, someone very different, almost a total stranger! Who knows, you might love me then?  
 
-<p></p>
-{{ image(src="/dead_rat_image.png", style="border-radius: 08px;") }}
-<p></p>
+<p>
+{{ image(src="/dead_rat_image.png", style="border-radius: 8px;") }}
+</p>
 
 A story by &#169; <a href="mailto:mihirpatel16.mp@gmail.com">Mihir Patel</a>  

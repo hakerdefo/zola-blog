@@ -1,6 +1,10 @@
 +++
 title = "Making Movies"
 date = "2021-09-26"
+description = "A dream-within-a-dream — watching yourself on a cinema screen beside your mother, as the film grows strange and the knife becomes real."
+
+[extra]
+image = "/making_movies_image.png"
 
 [taxonomies]
 tags = ["dream", "story"]
@@ -37,5 +41,5 @@ I do know now.
 *Yes, dear.*  
 
 <p>
-{{ image(src="/making_movies_image.png", style="border-radius: 08px;") }}
+{{ image(src="/making_movies_image.png", style="border-radius: 8px;") }}
 </p>

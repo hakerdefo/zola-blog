@@ -2,6 +2,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -28,6 +29,11 @@ body {
   }
 }
 
+::selection {
+  background: var(--accent);
+  color: var(--background);
+}
+
 h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
@@ -35,43 +41,49 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
 }
 
-h1 {
-  font-size: 1.4rem;
+h1 { font-size: 1.4rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.2rem; }
+h4, h5, h6 { font-size: 1.15rem; }
+
+// Heading anchor links — appear on hover inside post content
+.heading-anchor {
+  opacity: 0;
+  font-size: 0.75em;
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: var(--accent);
+  transition: opacity 0.2s ease;
+  flex-shrink: 0;
 }
 
-h2 {
-  font-size: 1.3rem;
+h1:hover .heading-anchor,
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor {
+  opacity: 0.5;
 }
 
-h3 {
-  font-size: 1.2rem;
+.heading-anchor:hover {
+  opacity: 1 !important;
 }
-
-h4, h5, h6 {
-  font-size: 1.15rem;
-}
-
 
 a {
   color: inherit;
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 img {
   display: block;
   max-width: 100%;
 
-  &.left {
-    margin-right: auto;
-  }
-
-  &.center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  &.right {
-    margin-left: auto;
-  }
+  &.left  { margin-right: auto; }
+  &.center { margin-left: auto; margin-right: auto; }
+  &.right { margin-left: auto; }
 }
 
 p {
@@ -83,24 +95,9 @@ figure {
   max-width: 100%;
   margin: 25px 0;
 
-  &.left {
-    img {
-      margin-right: auto;
-    }
-  }
-
-  &.center {
-    img {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  &.right {
-    img {
-      margin-left: auto;
-    }
-  }
+  &.left   img { margin-right: auto; }
+  &.center img { margin-left: auto; margin-right: auto; }
+  &.right  img { margin-left: auto; }
 
   figcaption {
     font-size: 14px;
@@ -109,17 +106,9 @@ figure {
     background: var(--accent);
     color: var(--background);
 
-    &.left {
-      text-align: left;
-    }
-
-    &.center {
-      text-align: center;
-    }
-
-    &.right {
-      text-align: right;
-    }
+    &.left   { text-align: left; }
+    &.center { text-align: center; }
+    &.right  { text-align: right; }
   }
 }
 
@@ -130,6 +119,7 @@ code {
   padding: 1px 6px;
   margin: 0 2px;
   font-size: .95rem;
+  border-radius: 2px;
 }
 
 pre {
@@ -149,35 +139,25 @@ pre {
     padding: 0;
     margin: 0;
     background: none;
+    border-radius: 0;
   }
 }
 
+// Blockquote — clean left-border style, no floating orphan quote mark
 blockquote {
+  border-left: 3px solid var(--accent);
   border-top: 1px solid var(--accent);
   border-bottom: 1px solid var(--accent);
   margin: 40px 0;
-  padding: 25px;
+  padding: 20px 25px;
+  position: relative;
 
   @media (max-width: $phone-max-width) {
     padding-right: 0;
   }
 
-  &:before {
-    content: '”';
-    font-family: Georgia, serif;
-    font-size: 3.875rem;
-    position: absolute;
-    left: -40px;
-    top: -20px;
-  }
-
-  p:first-of-type {
-    margin-top: 0;
-  }
-
-  p:last-of-type {
-    margin-bottom: 0;
-  }
+  p:first-of-type { margin-top: 0; }
+  p:last-of-type  { margin-bottom: 0; }
 
   p {
     position: relative;
@@ -187,7 +167,7 @@ blockquote {
     content: '>';
     display: block;
     position: absolute;
-    left: -25px;
+    left: -18px;
     color: var(--accent);
   }
 }
@@ -212,17 +192,13 @@ ul, ol {
   margin-left: 30px;
   padding: 0;
 
-  li {
-    position: relative;
-  }
+  li { position: relative; }
 
   @media (max-width: $phone-max-width) {
     margin-left: 20px;
   }
 
-  ul, ol {
-    margin-top: 20px;
-  }
+  ul, ol { margin-top: 20px; }
 }
 
 ol ol {
@@ -256,4 +232,194 @@ hr {
 
 .hidden {
   display: none;
+}
+
+// ── Homepage intro blurb ──────────────────────────────────────────────────────
+.site-intro {
+  margin: 0 0 12px;
+  opacity: 0.5;
+  font-size: 0.9rem;
+  font-style: italic;
+
+  p { margin: 0; }
+}
+
+// ── Back to top button ────────────────────────────────────────────────────────
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--accent);
+  color: var(--background);
+  border: none;
+  border-radius: 4px;
+  padding: 7px 13px;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 100;
+
+  &.visible {
+    opacity: 0.75;
+    pointer-events: auto;
+  }
+
+  &:hover {
+    opacity: 1 !important;
+  }
+
+  @media (max-width: $phone-max-width) {
+    bottom: 1rem;
+    right: 1rem;
+    padding: 5px 10px;
+  }
+}
+
+// ── Archive — grouped by year ─────────────────────────────────────────────────
+.archive {
+  margin-top: 10px;
+}
+
+.archive-year {
+  font-size: 1rem;
+  color: var(--accent);
+  margin-top: 30px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed var(--accent);
+  display: block; // override flex from global h2
+}
+
+.archive-year-list {
+  margin-bottom: 10px;
+}
+
+// ── Tag cloud on /tags ────────────────────────────────────────────────────────
+.tag-cloud {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+
+  li:before { content: none !important; }
+
+  a {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid var(--accent-alpha-70);
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background: var(--accent);
+      color: var(--background);
+      opacity: 1;
+    }
+  }
+
+  .tag-count {
+    opacity: 0.6;
+    font-size: 0.8em;
+    margin-left: 2px;
+  }
+}
+
+// Tag count inside post-title headings (tag single page)
+.post-title .tag-count {
+  font-size: 0.7em;
+  opacity: 0.6;
+  margin-left: 0.4em;
+  font-weight: normal;
+}
+
+// ── Giallo syntax highlighting — required classes ─────────────────────────────
+// .giallo-l  wraps each line of a code block (including line-highlighted lines)
+// .giallo-ln is the line-number gutter element
+.giallo-l {
+  display: inline-block;
+  min-height: 1lh;
+  width: 100%;
+}
+
+.giallo-ln {
+  display: inline-block;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0.4em;
+  min-width: 3ch;
+  text-align: right;
+  opacity: 0.8;
+}
+
+// ── Homepage intro fade-in ────────────────────────────────────────────────────
+@keyframes intro-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 0.5; transform: translateY(0); }
+}
+
+.site-intro {
+  animation: intro-fade-in 1.5s ease-in both;
+}
+
+// ── Print stylesheet ──────────────────────────────────────────────────────────
+@media print {
+  // Hide all chrome — only the post content matters on paper
+  .header,
+  .menu,
+  #back-to-top,
+  #reading-progress,
+  .donate-block,
+  .pagination,
+  .footer,
+  .read-more,
+  .post-tags-inline {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+    font-size: 11pt;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-title {
+    color: black;
+    border-bottom: 1px solid black;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  // Print URLs after links so they are readable on paper
+  .post-content a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    opacity: 0.6;
+  }
+
+  pre, blockquote {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
 }

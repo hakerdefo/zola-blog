@@ -1,6 +1,10 @@
 +++
 title = "To Friends"
 date = "2021-10-13"
+description = "A gentle, aching song that asks for nothing more than a little talk — any crap will do, as long as someone is there."
+
+[extra]
+image = "/to_friends_image.png"
 
 [taxonomies]
 tags = ["original", "song"]
@@ -39,5 +43,5 @@ All night I pray for a wee little chat
 All I really want is a wee little crap  
 
 <p>
-{{ image(src="/to_friends_image.png", style="border-radius: 08px;") }}
+{{ image(src="/to_friends_image.png", style="border-radius: 8px;") }}
 </p>
