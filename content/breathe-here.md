@@ -348,7 +348,7 @@ The British approach is logically defensible; the American approach is historica
 
 **Quotation marks for titles.** Short works — articles, short stories, poems, episodes, songs — take quotation marks. Long works — books, films, albums, newspapers, plays — take italics.
 
-*She read "The Dead" in* Dubliners *before the film was released.*
+She read "The Dead" in *Dubliners* before the film was released.
 
 **Scare quotes** — quotation marks placed around a word to signal irony, doubt, or distance from the word's standard meaning.
 

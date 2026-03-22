@@ -806,7 +806,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### couldn't care less — not *could care less*
+### couldn't care less — not&nbsp;*could care less*
 
 **Couldn't care less** means you have reached absolute zero on the scale of caring — there is nothing left to give. *Could care less* logically means you still have some care remaining, which is precisely the opposite of what is intended. The error has spread so widely that it now appears in speech at every level, but the logic remains broken.
 
@@ -816,7 +816,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### free rein — not *free reign*
+### free rein — not&nbsp;*free reign*
 
 **Free rein** comes from horsemanship — to give a horse *free rein* is to loosen the reins and allow it to move without restraint. The error *free reign* is entirely understandable: monarchs have reigns, and freedom of rule is a coherent image. But the phrase belongs to the stable, not the throne room.
 
@@ -826,7 +826,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### begs the question — not *raises the question*
+### begs the question — not&nbsp;*raises the question*
 
 **Begs the question** is a precise term from classical logic: it describes a fallacy in which the conclusion is assumed within the premise — the argument *begs* (assumes without earning) its own conclusion. It does *not* mean *raises the question* or *prompts one to ask*. Using it to mean the latter is not technically wrong in informal speech, but it erases a useful distinction that careful writers are glad to have.
 
@@ -836,7 +836,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### nip it in the bud — not *nip it in the butt*
+### nip it in the bud — not&nbsp;*nip it in the butt*
 
 **Nip it in the bud** comes from horticulture — to pinch off a bud before it flowers and spreads, stopping a problem in its earliest stage. The corruption *in the butt* is vivid but unhelpful. Gardeners nip buds. Nothing useful happens to butts.
 
@@ -846,7 +846,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### home in — not *hone in*
+### home in — not&nbsp;*hone in*
 
 **Home in** means to move toward a target with increasing accuracy — like a homing pigeon, or a guided missile. **Hone** means to sharpen — a blade, a skill, a technique. You hone your abilities; you home in on a target. The confusion arises because *honing* one's focus sounds plausible, but the phrase belongs to navigation.
 
@@ -856,7 +856,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### deep-seated — not *deep-seeded*
+### deep-seated — not&nbsp;*deep-seeded*
 
 **Deep-seated** means firmly established, entrenched — seated deep in something, the way a belief or prejudice can be seated in a mind or institution. *Deep-seeded* sounds entirely logical (a seed planted deep takes root deeply), but the idiom's origin is *seated* — placed firmly, embedded in a seat.
 
@@ -866,7 +866,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### for all intents and purposes — not *for all intensive purposes*
+### for all intents and purposes — not&nbsp;*for all intensive purposes*
 
 **For all intents and purposes** means in every practical sense, in effect — covering all the intentions and objectives that might apply. *Intensive purposes* is a mondegreen (a mishearing written down), and means nothing: purposes are never intensive, and the phrase has no logic.
 
@@ -876,7 +876,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### one and the same — not *one in the same*
+### one and the same — not&nbsp;*one in the same*
 
 **One and the same** means the very same thing — not two similar things but literally one, and also the same. The AND is load-bearing: it confirms that the two descriptions refer to a single identical thing. *One in the same* removes that confirmation and leaves a phrase that floats without logic.
 
@@ -886,7 +886,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### tongue in cheek — not *tongue and cheek*
+### tongue in cheek — not&nbsp;*tongue and cheek*
 
 **Tongue in cheek** describes something said or done with irony or gentle mockery — not quite serious, with a smile hidden just beneath. The image is a literal one: a tongue pressed into the inside of a cheek, the physical gesture of suppressed amusement. *Tongue and cheek* replaces the preposition with a conjunction and loses the image entirely.
 
@@ -896,7 +896,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### wreak havoc — not *wreck havoc*
+### wreak havoc — not&nbsp;*wreck havoc*
 
 **Wreak** means to cause or inflict — *wreak vengeance*, *wreak destruction*, *wreak havoc*. It is an old word, now used almost exclusively in this handful of phrases, which is precisely why it gets replaced by *wreck*, which feels more familiar and similarly destructive. But havoc is unleashed; it is not wrecked.
 
@@ -906,7 +906,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### sleight of hand — not *slight of hand*
+### sleight of hand — not&nbsp;*slight of hand*
 
 **Sleight** is an archaic word meaning skill, dexterity, or cunning — it is preserved almost exclusively in the phrase *sleight of hand*. Because it is never used alone, and because it is pronounced identically to *slight*, the substitution is entirely natural. But the phrase means *the skill of the hands*, not the slightness of them.
 
@@ -916,7 +916,7 @@ The tenses, which are the real source of the confusion:
 
 ---
 
-### champing at the bit — not (quite) *chomping at the bit*
+### champing at the bit — not (quite)&nbsp;*chomping at the bit*
 
 **Champing at the bit** is the original phrase: a horse *champs* the bit — chews on it with energy — when impatient and eager to move. *Chomping* has become so widespread that many style guides now accept it, and this battle is being lost with a certain grace. But *champing* remains the historically correct form, and careful writers still prefer it.
 
@@ -938,7 +938,7 @@ Go write something true. Carry these keys lightly.
 
 ---
 
-*This post is a companion to [Breathe Here: Punctuation Marks Explained Once and For All](@/breathe-here.md), where the same treatment is given to commonly confused words and phrases. The two articles together form a complete guide to the confusions that trouble careful writers most.*
+*This post is a companion to [Breathe Here: Punctuation Marks Explained Once and For All](@/breathe-here.md), where the same treatment is given to punctuation marks. The two articles together form a complete guide to the confusions that trouble careful writers most.*
 
 ---
 
