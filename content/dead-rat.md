@@ -37,7 +37,7 @@ How I wish I can tell you just how much I love your hate and disgust! Oh, please
 And sometimes I wish if only I could be someone else, some other person, someone very different, almost a total stranger! Who knows, you might love me then?  
 
 <p>
-{{ image(src="/dead_rat_image.png", style="border-radius: 8px;") }}
+{{ image(src="/dead_rat_image.png", alt="A young woman with red hair stands before a still body of water, one hand raised to her head, with a couple of rats perched quietly on her shoulders", title="Courtesy of freestocks — CC0 1.0", style="border-radius: 8px;") }}
 </p>
 
 A story by &#169; <a href="mailto:mihirpatel16.mp@gmail.com">Mihir Patel</a>  

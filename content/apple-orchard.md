@@ -29,5 +29,5 @@ Firecrackers! Noise of firecrackers! I slowly opened my eyes, yawning and cursin
 A child cradled in a woman's arms; the child looks up, and I see my mother's face.  
 
 <p>
-{{ image(src="/apple_orchard_image.png", style="border-radius: 8px;") }}
+{{ image(src="/apple_orchard_image.png", alt="A dim still life photograph of a human skull resting beside several dark, weathered apples on a rough burlap cloth, with small red seeds scattered nearby", title="Courtesy of StockyPix — CC0 1.0", style="border-radius: 8px;") }}
 </p>

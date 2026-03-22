@@ -27,5 +27,5 @@ They do worry about me, deep inside
 Pretense at times is your best mate  
 
 <p>
-{{ image(src="/the_pretense_image.png", style="border-radius: 8px;") }}
+{{ image(src="/the_pretense_image.png", alt="Two LEGO ostrich figures face each other across a small mound of yellow sand, with a pair of blue LEGO bricks between them on a wooden surface", title="Courtesy of Pascal — CC0 1.0", style="border-radius: 8px;") }}
 </p>

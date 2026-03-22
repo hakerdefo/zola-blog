@@ -10,5 +10,5 @@ And when I'm not around, don't worry; close your eyes, take a deep breath; that 
 Lily is still here. Forever.
 
 <p>
-{{ image(src="/lily.png", alt="Mount Cook Lilies in bloom", style="border-radius: 8px;") }}
+{{ image(src="/lily.png", alt="A cluster of Mount Cook Lily flowers with vivid yellow-green centers blooms against a dark background of fern fronds, with one small bud yet to open", title="Courtesy of Bernard Spragg — CC0 1.0", style="border-radius: 8px;") }}
 </p>

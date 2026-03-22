@@ -25,5 +25,5 @@ To people who don't care if I live or die?
 <cite>— Steven Patrick Morrissey, Heaven Knows I'm Miserable Now</cite>  
 
 <p>
-{{ image(src="/morrissey_was_right_image.png", style="border-radius: 8px;") }}
+{{ image(src="/morrissey_was_right_image.png", alt="Diogenes, painted by Jean-Léon Gérôme in 1860, sits inside a large ceramic vessel holding a lantern, surrounded by stray dogs, while a sunlit city stretches into the distance behind him", title="Courtesy of Jean-Léon Gérôme — CC0 1.0", style="border-radius: 8px;") }}
 </p>

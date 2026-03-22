@@ -41,5 +41,5 @@ I do know now.
 *Yes, dear.*  
 
 <p>
-{{ image(src="/making_movies_image.png", style="border-radius: 8px;") }}
+{{ image(src="/making_movies_image.png", alt="A digital painting of a vast alien canyon landscape bathed in red and amber light, with a river cutting through rocky terrain and three suns glowing in the hazy sky above", title="Courtesy of ESO — CC BY 4.0", style="border-radius: 8px;") }}
 </p>
