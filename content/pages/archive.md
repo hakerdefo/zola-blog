@@ -1,5 +1,5 @@
 +++
 path = "archive"
 template = "archive.html"
-title = "Blog Archive"
+title = "Harvest of Flowers"
 +++

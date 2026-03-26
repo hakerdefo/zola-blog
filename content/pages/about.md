@@ -1,5 +1,5 @@
 +++
-title = "About Me"
+title = "Lily's Garden"
 path = "about"
 +++
 
