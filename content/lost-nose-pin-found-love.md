@@ -47,14 +47,14 @@ We hope it deepens your appreciation of a truly remarkable song. 🎵
 (Cheshire is utterly smitten — from the very first moment he saw this girl, his heart skipped a beat and he knew he simply had to win her love)  
 
 *Do you hear that*  
-*Dil deya pediya, kyun mardna ae tanney wey*  
-*O wicked one of heart, you wink at me as you pass by*  
+*Dil deya bhaideya, kyun mardna ae tanney wey*  
+*Oh cruel-hearted one, why do you keep taunting me*  
 *Milane main aayi tenu roti de bahaane ve*  
 *I came to meet you under the pretext of bringing your food*  
 *Roti de bahaane veeeee...*  
 *Under the pretext of bringing your food...*  
-*Dil deya pediya, kyun mardna ae tanney wey*  
-*O wicked one of heart, you wink at me as you pass by*  
+*Dil deya bhaideya, kyun mardna ae tanney wey*  
+*Oh cruel-hearted one, why do you keep taunting me*  
 *Milane main aayi tenu roti de bahaane ve*  
 *I came to meet you under the pretext of bringing your food*  
 *Roti de bahaane veeeee...*  
