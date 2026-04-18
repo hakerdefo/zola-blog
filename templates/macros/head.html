@@ -22,6 +22,12 @@
         <meta property="og:type" content="website">
     {% endif -%}
 
+    {%- if page %}
+        <meta property="og:url" content="{{ page.permalink | safe }}">
+    {%- else %}
+        <meta property="og:url" content="{{ config.base_url | safe }}">
+    {% endif -%}
+
     {%- if page and page.extra.image %}
         <meta property="og:image" content="{{ config.base_url ~ page.extra.image | safe }}">
     {% endif -%}

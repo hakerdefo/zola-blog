@@ -1,6 +1,6 @@
 +++
 title = "Breathe Here: Punctuation Marks Explained Once and For All"
-date = 2026-03-22
+date = "2026-03-22"
 description = "Punctuation is not a set of rules. It is a set of signals — instructions to your reader about where to pause, where to stop, where to lean in, where to let the silence speak. This is the conductor's score."
 
 [extra]

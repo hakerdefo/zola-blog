@@ -1,6 +1,6 @@
 +++
 title = "A Key for Every Lock: English Confusions Cleared Once and For All"
-date = 2026-03-22
+date = "2026-03-22"
 description = "Not a grammar textbook. Not a list of rules. A key ring — one key per confusion, each one cut precisely, each one making the lock permanently openable."
 
 [extra]

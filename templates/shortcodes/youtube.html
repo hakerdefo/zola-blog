@@ -1,0 +1,11 @@
+{% set vid_title = title | default(value="YouTube video") %}
+<div class="embed-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ id | safe }}{% if start %}?start={{ start }}{% endif %}"
+    title="{{ vid_title }}"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
+</div>

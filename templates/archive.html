@@ -30,7 +30,7 @@
                 {{ post_macros::tags(page=p, short=true) }}
             </li>
         {%- endfor %}
-        </ul>
+        {%- if current_year != "" %}</ul>{% endif %}
         </div>
     </div>
 {% endblock content %}

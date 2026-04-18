@@ -1,0 +1,31 @@
+{% set lat_f  = lat  | float %}
+{% set lon_f  = lon  | float %}
+{% set df     = delta | default(value=0.01) | float %}
+{% set z      = zoom  | default(value=14)   | int   %}
+
+{% set bbox_w = lon_f - df %}
+{% set bbox_s = lat_f - df %}
+{% set bbox_e = lon_f + df %}
+{% set bbox_n = lat_f + df %}
+
+<div class="map-container">
+  <iframe
+    src="https://www.openstreetmap.org/export/embed.html?bbox={{ bbox_w }},{{ bbox_s }},{{ bbox_e }},{{ bbox_n }}&layer=mapnik&marker={{ lat_f }},{{ lon_f }}"
+    title="{{ caption | default(value="Map") }}"
+    loading="lazy"
+    allowfullscreen
+  ></iframe>
+  <p class="map-attribution">
+    <a
+      href="https://www.openstreetmap.org/?mlat={{ lat_f }}&mlon={{ lon_f }}#map={{ z }}/{{ lat_f }}/{{ lon_f }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >View larger map</a>
+    &nbsp;·&nbsp;
+    <a
+      href="https://www.openstreetmap.org/copyright"
+      target="_blank"
+      rel="noopener noreferrer"
+    >© OpenStreetMap contributors</a>
+  </p>
+</div>
