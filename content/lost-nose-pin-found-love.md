@@ -149,8 +149,8 @@ We hope it deepens your appreciation of a truly remarkable song. 🎵
 *The whole world...*  
 *Ikk utte nahi mainu saareyan te shaq ve*  
 *I don't just suspect one person, I suspect them all*  
-*Sabh nu khara ke jhaati paayin ve, mera laung gawacha*  
-*So line everyone up and search them! My nose pin is lost...*  
+*Sabh nookran te jhaati paayin ve, mera laung gawacha*  
+*Keep looking in every nook and cranny! My nose pin is lost...*  
 *Nigah maarda aayin ve, mera laung gawacha*  
 *Cast your searching glance around, my nose pin is lost!*  
 
