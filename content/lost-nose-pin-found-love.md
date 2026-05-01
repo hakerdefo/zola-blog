@@ -47,13 +47,13 @@ We hope it deepens your appreciation of a truly remarkable song. 🎵
 (Cheshire is utterly smitten — from the very first moment he saw this girl, his heart skipped a beat and he knew he simply had to win her love)  
 
 *Do you hear that*  
-*Dil deya bhaideya, kyun mardna ae tanney wey*  
+*Dil deya bhaireya, kyun mardna ae tanney wey*  
 *Oh cruel-hearted one, why do you keep taunting me*  
 *Milane main aayi tenu roti de bahaane ve*  
 *I came to meet you under the pretext of bringing your food*  
 *Roti de bahaane veeeee...*  
 *Under the pretext of bringing your food...*  
-*Dil deya bhaideya, kyun mardna ae tanney wey*  
+*Dil deya bhaireya, kyun mardna ae tanney wey*  
 *Oh cruel-hearted one, why do you keep taunting me*  
 *Milane main aayi tenu roti de bahaane ve*  
 *I came to meet you under the pretext of bringing your food*  
@@ -87,13 +87,13 @@ We hope it deepens your appreciation of a truly remarkable song. 🎵
 
 *Kahli kahli aayi si main tahliyan de heth di*  
 *I came in a great hurry from beneath the Shisham trees*  
-*Kadiya si khundh main, aawaz sun jeth di*  
+*Kadiya si ghund main, aawaz sun jeth di*  
 *I drew my veil over my face when I heard my brother-in-law's voice*  
 *Aawaz sun jeth diiiiii...*  
 *When I heard my brother-in-law's voice...*  
 *Kahli kahli aayi si main tahliyan de heth di*  
 *I came in a great hurry from beneath the Shisham trees*  
-*Kadiya si khundh main, aawaz sun jeth di*  
+*Kadiya si ghund main, aawaz sun jeth di*  
 *I drew my veil over my face when I heard my brother-in-law's voice*  
 *Aawaz sun jeth diiiiii...*  
 *When I heard my brother-in-law's voice...*  
