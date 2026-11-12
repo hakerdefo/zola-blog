@@ -10,7 +10,7 @@ image = "/delhi_air_pollution.webp"
 tags = ["delhi", "pollution"]
 +++
 
-Delhi is in the heart of the Indo-Gangetic Plain, flanked by the Himalayas to the northeast and the Aravalli range and central plateaus to the south. This forms a vast landlocked basin. Unlike our Surat or Mumbai, which benefit from dynamic sea breezes that disperse pollutant particulates out to sea, Delhi has nowhere to vent its air. Polluted air from Pakistan, Punjab, and Haryana rolls eastward down the plain, hits the barrier, and pools directly over Delhi and NCR. 
+Delhi is in the heart of the Indo-Gangetic Plain, flanked by the Himalayas to the northeast and the Aravalli range and central plateaus to the south. This forms a vast landlocked basin. Unlike Surat or Mumbai, which benefit from dynamic sea breezes that disperse pollutant particulates out to sea, Delhi has nowhere to vent its air. Polluted air from Pakistan, Punjab, and Haryana rolls eastward down the plain, hits the barrier, and pools directly over Delhi and NCR. 
 <!-- more -->
 Normally, warm air rises, carrying smoke and other pollutants high into the atmosphere, where upper-level winds blow them away. In late autumn, three meteorological phenomena prevent this from happening in Delhi. 
 
