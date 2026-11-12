@@ -54,7 +54,7 @@ Mandate complete conversion to PNG or electricity for all micro-scale industrial
 
 **Phase 3 (Years 7–10)**: Road dust is a solvable engineering problem. Mandate wall-to-wall paving. No exposed dirt patches between the asphalt and pedestrian sidewalks. Every unpaved median must be converted to deep plantation cover or paved over. 
 
-Ban dry broom sweeping across NCR roads, which simply launches settled fine dust back into the air. Replace it entirely with mechanized vacuum sweepers with dust suppression. 
+Ban dry broom sweeping across the NCR roads, which simply launches settled fine dust back into the air. Replace it entirely with mechanized vacuum sweepers with dust suppression. 
 
 Plant a multi-tiered regional green belt  with grasses, shrubs, and native trees with high dust-trapping leaf morphology like Peepal, Neem, and Amaltas along major highway corridors and surrounding industrial zones to serve as physical particle filters. 
 
