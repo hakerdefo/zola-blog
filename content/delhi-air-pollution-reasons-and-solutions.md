@@ -10,7 +10,7 @@ image = "/delhi_air_pollution.webp"
 tags = ["delhi", "pollution"]
 +++
 
-Delhi is in the heart of the Indo-Gangetic Plain, flanked by the Himalayas to the northeast and the Aravalli range and central plateaus to the south. This forms a vast landlocked basin. Unlike Surat or Mumbai, which benefit from dynamic sea breezes that disperse pollutant particulates out to sea, Delhi has nowhere to vent its air. Polluted air from Pakistan, Punjab, and Haryana rolls eastward down the plain, hits the barrier, and pools directly over Delhi and NCR. 
+Delhi is in the heart of the Indo-Gangetic Plain, flanked by the Himalayas to the northeast and the Aravalli range and central plateaus to the south. This forms a vast landlocked basin. Unlike Surat or Mumbai, which benefit from dynamic sea breezes that disperse pollutant particulates out to sea, Delhi has nowhere to vent its air. Polluted air from Pakistan, Punjab, and Haryana rolls eastward down the plain, hits the barrier, and pools directly over Delhi and the NCR. 
 <!-- more -->
 Normally, warm air rises, carrying smoke and other pollutants high into the atmosphere, where upper-level winds blow them away. In late autumn, three meteorological phenomena prevent this from happening in Delhi. 
 
@@ -28,7 +28,7 @@ Delhi has over 10 million registered vehicles, plus hundreds of thousands of int
 
 Roughly 30–40% of Delhi’s ambient PM10 is mechanical dust churned up by unpaved road shoulders, heavy traffic, and uncontained construction activity. 
 
-Add to all of this the acute spike from Diwali firecrackers. While seasonal bans exist on paper, the lack of border enforcement turns Diwali into an immediate chemical shockwave atop an already suffocating baseline. Ban the firecrackers. Diwali is a festival of light and not the noise. 
+Add to all of this the acute spike from Diwali firecrackers. While seasonal bans exist on paper, the lack of border enforcement turns Diwali into an immediate chemical shockwave atop an already suffocating baseline. 
 
 So the million-dollar question: can Delhi's air problem be solved, and how? 
 
@@ -41,6 +41,8 @@ Farmers burn stubble because clearing it mechanically costs money. Rather than p
 Gradually move agricultural MSP procurement away from water-guzzling paddy in Punjab and Haryana toward pulses, millets, and oilseeds that don't produce massive silica-rich stubble and don't drain the water table. 
 
 Complete bio-mining of the mega-landfills. 
+
+Ban the firecrackers. Diwali is a festival of light and not the noise. 
 
 **Phase 2 (Years 4–6)**: Mandate that 100% of DTC buses, last-mile commercial delivery vans, and auto-rickshaws must be electric. 
 
@@ -56,7 +58,7 @@ Ban dry broom sweeping across NCR roads, which simply launches settled fine dust
 
 Plant a multi-tiered regional green belt  with grasses, shrubs, and native trees with high dust-trapping leaf morphology like Peepal, Neem, and Amaltas along major highway corridors and surrounding industrial zones to serve as physical particle filters. 
 
-Decommission every coal-fired thermal power plant within a 250 km radius, transitioning NCR's baseload power to nuclear, solar, and grid-scale storage. 
+Decommission every coal-fired thermal power plant within a 250 km radius, transitioning the NCR's baseload power to nuclear, solar, and grid-scale storage. 
 
 If this gets done, it is our absolute belief that Delhi will forever be free from its air pollution. 
 
