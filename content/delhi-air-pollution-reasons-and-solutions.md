@@ -65,5 +65,5 @@ If this gets done, it is our absolute belief that Delhi will forever be free fro
 Will those in positions of powers do this? Yes, absolutely, if we make it the number one point upon which we will vote in the upcoming elections; otherwise, no. It's up to us to decide the quality of air our children and grandchildren will be breathing. 
 
 <p>
-{{ image(src="/delhi_air_pollution.webp", alt="A frightening scene of air pollution and extremely poor visibility in Delhi, India", title="Courtesy of Prami.ap90—CC BY-SA 4.0", style="border-radius: 8px;") }}
+{{ image(src="/delhi_air_pollution.webp", alt="A frightening scene of air pollution and extremely poor visibility in Delhi, India", caption="Courtesy of Prami.ap90 — CC BY-SA 4.0", style="border-radius: 8px;") }}
 </p>

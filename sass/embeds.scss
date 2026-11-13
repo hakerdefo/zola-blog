@@ -9,6 +9,7 @@
   margin: 40px 0;
   overflow: hidden;
   border: 1px dashed var(--accent);
+  border-radius: 6px;
 
   iframe {
     position: absolute;
@@ -29,6 +30,7 @@
     width: 100%;
     height: 450px;
     border: 1px dashed var(--accent);
+    border-radius: 6px;
 
     @media (max-width: $phone-max-width) {
       height: 300px;

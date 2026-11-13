@@ -25,7 +25,6 @@
     {% endif -%}
 
     {%- if config.extra.favicon %}
-        <link rel="shortcut icon" type="{{ config.extra.favicon_mimetype | default(value="image/x-icon") }}" href="{{ config.extra.favicon | safe }}">
         <link rel="icon" type="{{ config.extra.favicon_mimetype | default(value="image/x-icon") }}" href="{{ config.extra.favicon | safe }}">
     {% endif -%}
 
@@ -34,6 +33,7 @@
 </head>
 
 <body>
+<a class="skip-to-content" href="#main-content">Skip to content</a>
 <div class="container">
     {% block header %}
     <header class="header">
@@ -68,7 +68,7 @@
     </div>
     {% endif -%}
 
-    <div class="content">
+    <div class="content" id="main-content">
         {% block content %}
         <div class="posts">
             {%- if paginator %}
@@ -80,7 +80,7 @@
             {%- for page in show_pages %}
                 {%- if page.draft %}{% continue %}{% endif -%}
                 <div class="post on-list">
-                    {{ post_macros::header(page=page) }}
+                    {{ post_macros::header(page=page, is_list=true) }}
                     {{ post_macros::content(page=page, summary=true) }}
                 </div>
             {% endfor -%}

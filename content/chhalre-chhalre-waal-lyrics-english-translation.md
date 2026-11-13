@@ -95,4 +95,4 @@ P****i has used the OG, Shafaullah Khan Rokhri's version of the song, as the ref
 *Wild, dark curls cascading down,*  
 *A black wool shawl across your shoulder tossed...*  
 
-{{ youtube(id="-XryW1sWml8", title="Chhalre Chhalre Waal— Shafaullahkhan Rokhri") }}
+{{ youtube(id="-XryW1sWml8", title="Chhalre Chhalre Waal— Shafaullahkhan Rokhri", caption="Chhalre Chhalre Waal — Shafaullahkhan Rokhri") }}

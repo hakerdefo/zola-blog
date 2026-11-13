@@ -53,5 +53,5 @@ When a government removes a universally loved, easily digestible superfood just 
 Some things are too heavy for conversation, and the silent stunting of a generation is one of them. We cannot build a superpower on a ten-rupee margin, and we certainly cannot fix malnutrition by replacing an egg with an illusion. 
 
 <p>
-{{ image(src="/weight_egg_image.webp", alt="A woven straw basket with rope handles contains a pink ceramic piggy bank in the center, encircled by brown eggs", title="Courtesy of 401(K) 2013—CC BY-SA 2.0", style="border-radius: 8px;") }}
+{{ image(src="/weight_egg_image.webp", alt="A woven straw basket with rope handles contains a pink ceramic piggy bank in the center, encircled by brown eggs", caption="Courtesy of 401(K) 2013 — CC BY-SA 2.0", style="border-radius: 8px;") }}
 </p>

@@ -523,5 +523,5 @@ You are not learning punctuation. You are learning to hear the music that was al
 *Written in the belief that clarity is a form of kindness — and that every reader deserves a writer who knows where to breathe.*
 
 <p>
-{{ image(src="/breath_here.jpg", alt="A 19th-century wood engraving by J. W. Orr showing a teacher using a pointer to indicate punctuation marks on a blackboard — comma, semicolon, colon, full stop, question mark, and exclamation mark — while six children stand with their backs to the viewer, looking on", title="Courtesy of John William Orr — Public Domain", style="border-radius: 8px;") }}
+{{ image(src="/breath_here.jpg", alt="A 19th-century wood engraving by J. W. Orr showing a teacher using a pointer to indicate punctuation marks on a blackboard — comma, semicolon, colon, full stop, question mark, and exclamation mark — while six children stand with their backs to the viewer, looking on", caption="Courtesy of John William Orr — Public Domain") }}
 </p>

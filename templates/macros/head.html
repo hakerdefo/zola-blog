@@ -1,6 +1,6 @@
 {% macro head(config, page=false) %}
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     {%- if page and page.description %}
         <meta name="description" content="{{ page.description | striptags | truncate(length=160) }}">
@@ -30,6 +30,22 @@
 
     {%- if page and page.extra.image %}
         <meta property="og:image" content="{{ config.base_url ~ page.extra.image | safe }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="{{ config.base_url ~ page.extra.image | safe }}">
+    {%- else %}
+        <meta name="twitter:card" content="summary">
+    {% endif -%}
+
+    {%- if page and page.title %}
+        <meta name="twitter:title" content="{{ page.title }} — {{ config.title }}">
+    {%- else %}
+        <meta name="twitter:title" content="{{ config.title }}">
+    {% endif -%}
+
+    {%- if page and page.description %}
+        <meta name="twitter:description" content="{{ page.description | striptags | truncate(length=160) }}">
+    {%- elif config.description %}
+        <meta name="twitter:description" content="{{ config.description }}">
     {% endif -%}
 
     {%- if page %}

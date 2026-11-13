@@ -21,7 +21,7 @@ Use the `youtube` shortcode with the video's ID (the part after `?v=` in the URL
 {{ "{{" }} youtube(id="NrG63A7DnGI") }}
 ```
 
-{{ youtube(id="aqz-KE-bpKQ", title="Rick Astley — Never Gonna Give You Up") }}
+{{ youtube(id="aqz-KE-bpKQ", title="Rick Astley — Never Gonna Give You Up", caption="Rick Astley — Never Gonna Give You Up (1987)") }}
 
 Optional parameters:
 

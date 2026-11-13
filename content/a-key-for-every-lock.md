@@ -945,5 +945,5 @@ Go write something true. Carry these keys lightly.
 *This post was written in the spirit of permanent illumination — one key per confusion, each one cut to last.*
 
 <p>
-{{ image(src="/every_lock.jpg", alt="A brass skeleton key resting before a stack of aged books with gilded edges, two small forget-me-not flowers tucked against the spine", title="Courtesy of hehaden — CC BY-NC 2.0", style="border-radius: 8px;") }}
+{{ image(src="/every_lock.jpg", alt="A brass skeleton key resting before a stack of aged books with gilded edges, two small forget-me-not flowers tucked against the spine", caption="Courtesy of hehaden — CC BY-NC 2.0") }}
 </p>
